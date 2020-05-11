@@ -29,13 +29,13 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-		
+
         <source-file src="src/android/com/tkyaji/cordova/DecryptResource.java" target-dir="src/com/tkyaji/cordova" />
     </platform>
 
     <cryptfiles>
         <include>
-            <file regex="\.(htm|html|js|css)$" />
+            <file regex="\.(htm|html|js|css|map)$" />
         </include>
         <exclude>
         </exclude>
