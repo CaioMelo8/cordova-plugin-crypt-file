@@ -35,9 +35,10 @@
 
     <cryptfiles>
         <include>
-            <file regex="\.(htm|html|js|css|map)$" />
+            <file regex="\.(htm|html|js|css)$" />
         </include>
         <exclude>
+            <file regex="\plugins" />
         </exclude>
     </cryptfiles>
 
